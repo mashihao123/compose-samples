@@ -55,6 +55,7 @@ room = "2.6.1"
 secrets = "2.0.1"
 # @keep
 targetSdk = "33"
+utilcode = "1.30.7"
 version-catalog-update = "0.8.5"
 
 [libraries]
@@ -156,6 +157,7 @@ roborazzi-compose = { module = "io.github.takahirom.roborazzi:roborazzi-compose"
 roborazzi-rule = { module = "io.github.takahirom.roborazzi:roborazzi-junit-rule", version.ref = "roborazzi" }
 rometools-modules = { module = "com.rometools:rome-modules", version.ref = "rome" }
 rometools-rome = { module = "com.rometools:rome", version.ref = "rome" }
+utilcode = { module = "com.blankj:utilcode", version.ref = "utilcode" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
